@@ -1,3 +1,6 @@
-<Page>
-    
+<Page loaded = "loadThis">
+    <StackLayout>
+        <Button text = "button" />
+        <Label text = "Label" />
+    </StackLayout>
 </Page>
