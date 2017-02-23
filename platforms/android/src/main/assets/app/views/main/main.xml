@@ -2,21 +2,23 @@
     <Page.ActionBar>
         <sb:StatusBar android:barStyle="#00a1ff" />
     </Page.ActionBar>
-    <StackLayout
+    <StackLayout>
+        <StackLayout
         backgroundColor   = "#00a1ff"
         height            =   "40%"
         verticalAlignment = "top"
         >
-        <StackLayout>
-            <Image
-                src                 = "res://icon"
-                horizontalAlignment = "left"
-                height              = "30"
-                width               = "30"
-                marginLeft          = "20"
-                marginTop           = "20"
-                color               = "white"
-                tap                 = "settings" />
-        </StackLayout>
+            <StackLayout>
+                <Image
+                    src                 = "res://icon"
+                    horizontalAlignment = "left"
+                    height              = "30"
+                    width               = "30"
+                    marginLeft          = "20"
+                    marginTop           = "20"
+                    color               = "white"
+                    tap                 = "settings" />
+            </StackLayout>
+        </StackLayout>  
     </StackLayout>
 </Page>
