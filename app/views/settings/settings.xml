@@ -1,0 +1,5 @@
+<Page pageTransition = "slide">
+    <StackLayout>
+        <Label Text = "this is the settings page!" />
+    </StackLayout>
+</Page>

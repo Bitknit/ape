@@ -1,0 +1,5 @@
+<Page xmlns:sb="nativescript-statusbar">
+    <Page.ActionBar>
+        <sb:StatusBar android:barStyle="res://st_blue" />
+    </Page.ActionBar>
+</Page>

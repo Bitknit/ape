@@ -9,25 +9,11 @@
         <dex dex="/home/sandesh/proj/ape/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-appcompat-v7-25.1.0_e44b76ea437bc06a26819e3006fa7187787e21cd.jar" />
     </item>
     <item
-        jar="/home/sandesh/proj/ape/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/home/sandesh/proj/ape/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-fragment-25.1.0_c64787bd7b9efb80398ee57b5e29726ee46a0808.jar" />
-    </item>
-    <item
         jar="/home/sandesh/proj/ape/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
         jumboMode="false"
         revision="25.0.2"
         sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
         <dex dex="/home/sandesh/proj/ape/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-compat-25.1.0_3dc9554c36581d5f1ce500fb63cb8c3b2ffe9992.jar" />
-    </item>
-    <item
-        jar="/home/sandesh/proj/ape/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/home/sandesh/proj/ape/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-transition-25.1.0_f48391b9231fc7d10fece671878d5733a76f9f46.jar" />
     </item>
     <item
         jar="/home/sandesh/proj/ape/platforms/android/build/intermediates/exploded-aar/apeBack/runtime/unspecified/jars/libs/binding-generator.jar"
@@ -65,13 +51,6 @@
         <dex dex="/home/sandesh/proj/ape/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-utils-25.1.0_a02a55203dd1e713b010846a6d130bb80c88b08c.jar" />
     </item>
     <item
-        jar="/home/sandesh/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/home/sandesh/proj/ape/platforms/android/build/intermediates/pre-dexed/F0/debug/support-annotations-25.1.0_7c053765f1792405cedcbfba2cc0a667676201cd.jar" />
-    </item>
-    <item
         jar="/home/sandesh/proj/ape/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
         jumboMode="false"
         revision="25.0.2"
@@ -84,6 +63,27 @@
         revision="25.0.2"
         sha1="632bf39700c28ba66c117628dab343126ef89551">
         <dex dex="/home/sandesh/proj/ape/platforms/android/build/intermediates/pre-dexed/F0/debug/apeBack-runtime-unspecified_4e1d6379c740c5b42ecbbaf31e7a095730d54723.jar" />
+    </item>
+    <item
+        jar="/home/sandesh/proj/ape/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/home/sandesh/proj/ape/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-fragment-25.1.0_c64787bd7b9efb80398ee57b5e29726ee46a0808.jar" />
+    </item>
+    <item
+        jar="/home/sandesh/proj/ape/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/home/sandesh/proj/ape/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-transition-25.1.0_f48391b9231fc7d10fece671878d5733a76f9f46.jar" />
+    </item>
+    <item
+        jar="/home/sandesh/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/home/sandesh/proj/ape/platforms/android/build/intermediates/pre-dexed/F0/debug/support-annotations-25.1.0_7c053765f1792405cedcbfba2cc0a667676201cd.jar" />
     </item>
     <item
         jar="/home/sandesh/proj/ape/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
