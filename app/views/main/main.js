@@ -1,6 +1,6 @@
 var frames = require("ui/frame");
 
-exports.tonext = function(){
+exports.settings = function(){
     frameTop = frames.topmost();
     frameTop.navigate({
         moduleName: "views/settings/settings",
