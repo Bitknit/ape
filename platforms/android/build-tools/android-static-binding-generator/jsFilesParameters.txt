@@ -2,6 +2,8 @@
 /home/sandesh/proj/ape/platforms/android/src/main/assets/app/main-page.js
 /home/sandesh/proj/ape/platforms/android/src/main/assets/app/app.js
 /home/sandesh/proj/ape/platforms/android/src/main/assets/app/main-view-model.js
+/home/sandesh/proj/ape/platforms/android/src/main/assets/app/tns_modules/nativescript-statusbar/statusbar.js
+/home/sandesh/proj/ape/platforms/android/src/main/assets/app/tns_modules/nativescript-statusbar/statusbar-common.js
 /home/sandesh/proj/ape/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/bundle-entry-points.js
 /home/sandesh/proj/ape/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/http/http-request.js
 /home/sandesh/proj/ape/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/http/http.js
