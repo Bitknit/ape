@@ -19,21 +19,46 @@
                     color               = "white"
                     tap                 = "settings" />
                 <Image 
+                    backgroundColor     = "white"
                     src                 = "res://logo"
                     height              = "100"
                     width               = "100"
                     borderColor         = "white"
-                    borderWidth         = "2"
+                    borderWidth         = "4"
                     borderRadius        = "100%"
                     />
                 <Label 
-                    marginTop           = "10"
+                    marginTop           = "20"
                     fontSize            = "20"
                     text                = "Sandesh Bhusal"
                     textAlignment       = "center"
                     color               = "white"
+                    width               = "50%"
                     />
             </StackLayout>
-        </StackLayout>  
+        </StackLayout>
+        <StackLayout>
+            <TabView>
+                <TabView.items>
+                <TabViewItem title="Your Profile">
+                    <TabViewItem.view>
+                        <StackLayout>
+
+                        </StackLayout>
+                    </TabViewItem.view>
+                </TabViewItem>
+                <TabViewItem title="Leaderboards">
+                    <TabViewItem.view>
+                        <StackLayout>
+
+                        </StackLayout>
+                    </TabViewItem.view>
+                </TabViewItem>
+                </TabView.items>
+            </TabView>
+        </StackLayout>
+        <DockLayout>
+            <Label text = "Bottom" />
+        </DockLayout>  
     </StackLayout>
 </Page>
