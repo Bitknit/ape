@@ -15,7 +15,7 @@
                     height              = "30"
                     width               = "30"
                     marginLeft          = "20"
-                    marginTop           = "20"
+                    marginTop           = "10"
                     color               = "white"
                     tap                 = "settings" />
                 <Image 
@@ -54,11 +54,11 @@
                             rows    = "*, *"
                             >
                             <Button col = "0" row = "0" backgroundColor="transparent" text = "Physics"/>
-                            <Button col = "1" row = "0" backgroundColor="transparent" text = "Physics"/>
-                            <Button col = "2" row = "0" backgroundColor="transparent" text = "Physics"/>
+                            <Button col = "1" row = "0" backgroundColor="transparent" text = "CHemistry"/>
+                            <Button col = "2" row = "0" backgroundColor="transparent" text = "English"/>
 
-                            <Button col = "0" row = "1" backgroundColor="transparent" text = "Physics"/>
-                            <Button col = "1" row = "1" backgroundColor="transparent" text = "Physics"/>
+                            <Button col = "0" row = "1" backgroundColor="transparent" text = "Maths"/>
+                            <Button col = "1" row = "1" backgroundColor="transparent" text = "Aptitude"/>
                             <Button col = "2" row = "1" backgroundColor="transparent" text = "Physics"/>
                         </GridLayout>
                     </TabViewItem.view>
