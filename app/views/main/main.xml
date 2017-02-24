@@ -51,15 +51,15 @@
                     <TabViewItem.view>
                         <GridLayout
                             columns = "*, *, *"
-                            rows    = "*, *"
+                            rows    = "20, auto, 20, auto, 20"
                             >
-                            <Button col = "0" row = "0" backgroundColor="transparent" text = "Physics"/>
-                            <Button col = "1" row = "0" backgroundColor="transparent" text = "CHemistry"/>
-                            <Button col = "2" row = "0" backgroundColor="transparent" text = "English"/>
-
-                            <Button col = "0" row = "1" backgroundColor="transparent" text = "Maths"/>
-                            <Button col = "1" row = "1" backgroundColor="transparent" text = "Aptitude"/>
-                            <Button col = "2" row = "1" backgroundColor="transparent" text = "Physics"/>
+                            <Image col = "0" row = "1" backgroundColor="transparent"/>
+                            <Image col = "1" row = "1" backgroundColor="transparent"/>
+                            <Image col = "2" row = "1" backgroundColor="transparent"/>
+                            
+                            <Image col = "0" row = "3" backgroundColor="transparent"/>
+                            <Image col = "1" row = "3" backgroundColor="transparent"/>
+                            <Image col = "2" row = "3" backgroundColor="transparent"/>
                         </GridLayout>
                     </TabViewItem.view>
                 </TabViewItem>
