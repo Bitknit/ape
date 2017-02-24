@@ -10,7 +10,7 @@
         "spec": ">=1.0.2 <1.1.0",
         "type": "range"
       },
-      "/home/sandesh/proj/apeBack/node_modules/tns-template-hello-world"
+      "/home/sandesh/proj/ape"
     ]
   ],
   "_from": "nativescript-theme-core@>=1.0.2 <1.1.0",
@@ -38,13 +38,13 @@
     "type": "range"
   },
   "_requiredBy": [
-    "/tns-template-hello-world"
+    "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-theme-core/-/nativescript-theme-core-1.0.2.tgz",
   "_shasum": "712e80b702316abaa4e7d738825573f9e6bae658",
   "_shrinkwrap": null,
   "_spec": "nativescript-theme-core@~1.0.2",
-  "_where": "/home/sandesh/proj/apeBack/node_modules/tns-template-hello-world",
+  "_where": "/home/sandesh/proj/ape",
   "author": {
     "name": "Telerik",
     "email": "support@telerik.com"

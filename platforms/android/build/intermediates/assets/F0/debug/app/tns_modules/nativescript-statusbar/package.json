@@ -2,18 +2,18 @@
   "_args": [
     [
       {
-        "raw": "nativescript-statusbar",
+        "raw": "nativescript-statusbar@^1.0.0",
         "scope": null,
         "escapedName": "nativescript-statusbar",
         "name": "nativescript-statusbar",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
       },
       "/home/sandesh/proj/ape"
     ]
   ],
-  "_from": "nativescript-statusbar@latest",
+  "_from": "nativescript-statusbar@>=1.0.0 <2.0.0",
   "_id": "nativescript-statusbar@1.0.0",
   "_inCache": true,
   "_location": "/nativescript-statusbar",
@@ -29,22 +29,21 @@
   "_npmVersion": "2.14.9",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "nativescript-statusbar",
+    "raw": "nativescript-statusbar@^1.0.0",
     "scope": null,
     "escapedName": "nativescript-statusbar",
     "name": "nativescript-statusbar",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "rawSpec": "^1.0.0",
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-statusbar/-/nativescript-statusbar-1.0.0.tgz",
   "_shasum": "d58d83cdc0f0ceefcdddde1088dc5e53d989bbd6",
   "_shrinkwrap": null,
-  "_spec": "nativescript-statusbar",
+  "_spec": "nativescript-statusbar@^1.0.0",
   "_where": "/home/sandesh/proj/ape",
   "author": {
     "name": "Burke Holland",

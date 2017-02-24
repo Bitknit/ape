@@ -3,7 +3,7 @@ var frame = require("ui/frame");
 exports.settings = function(){
     var top = frame.topmost();
     top.navigate({
-        moduleName : "views/carousel/carousel",
+        moduleName : "views/takeexamdir/takeexam",
         transition:{
             name : "slideLeft"
         },
