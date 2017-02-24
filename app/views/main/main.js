@@ -7,6 +7,6 @@ exports.settings = function(){
         transition:{
             name : "slideLeft"
         },
-        clearHistory: true
+        clearHistory: false
     });
 }

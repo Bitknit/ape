@@ -15,25 +15,66 @@
                     height              = "30"
                     width               = "30"
                     marginLeft          = "20"
-                    marginTop           = "20"
+                    marginTop           = "10"
                     color               = "white"
                     tap                 = "settings" />
                 <Image 
+                    backgroundColor     = "white"
                     src                 = "res://logo"
                     height              = "100"
                     width               = "100"
                     borderColor         = "white"
-                    borderWidth         = "2"
+                    borderWidth         = "4"
                     borderRadius        = "100%"
                     />
                 <Label 
-                    marginTop           = "10"
+                    marginTop           = "20"
                     fontSize            = "20"
                     text                = "Sandesh Bhusal"
                     textAlignment       = "center"
                     color               = "white"
+                    width               = "50%"
+                    />
+                <Button 
+                    width               = "30%"
+                    text                = "Profile"
+                    color               = "white"
+                    backgroundColor     = "transparent"
+                    padding             = "0"
                     />
             </StackLayout>
-        </StackLayout>  
+        </StackLayout>
+        <StackLayout>
+            <TabView>
+                <TabView.items>
+                <TabViewItem title="Subjects">
+                    <TabViewItem.view>
+                        <GridLayout
+                            columns = "*, *, *"
+                            rows    = "*, *"
+                            >
+                            <Button col = "0" row = "0" backgroundColor="transparent" text = "Physics"/>
+                            <Button col = "1" row = "0" backgroundColor="transparent" text = "CHemistry"/>
+                            <Button col = "2" row = "0" backgroundColor="transparent" text = "English"/>
+
+                            <Button col = "0" row = "1" backgroundColor="transparent" text = "Maths"/>
+                            <Button col = "1" row = "1" backgroundColor="transparent" text = "Aptitude"/>
+                            <Button col = "2" row = "1" backgroundColor="transparent" text = "Physics"/>
+                        </GridLayout>
+                    </TabViewItem.view>
+                </TabViewItem>
+                <TabViewItem title="Take an exam">
+                    <TabViewItem.view>
+                        <StackLayout>
+
+                        </StackLayout>
+                    </TabViewItem.view>
+                </TabViewItem>
+                </TabView.items>
+            </TabView>
+        </StackLayout>
+        <DockLayout>
+            <Label dock = "bottom" text = "Bottom" />
+        </DockLayout>  
     </StackLayout>
 </Page>
