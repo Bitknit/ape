@@ -5,7 +5,7 @@
     <StackLayout>
         <StackLayout
         backgroundColor   = "#00a1ff"
-        height            =   "40%"
+        height            = "40%"
         verticalAlignment = "top"
         >
             <StackLayout>
@@ -18,6 +18,21 @@
                     marginTop           = "20"
                     color               = "white"
                     tap                 = "settings" />
+                <Image 
+                    src                 = "res://logo"
+                    height              = "100"
+                    width               = "100"
+                    borderColor         = "white"
+                    borderWidth         = "2"
+                    borderRadius        = "100%"
+                    />
+                <Label 
+                    marginTop           = "10"
+                    fontSize            = "20"
+                    text                = "Sandesh Bhusal"
+                    textAlignment       = "center"
+                    color               = "white"
+                    />
             </StackLayout>
         </StackLayout>  
     </StackLayout>
