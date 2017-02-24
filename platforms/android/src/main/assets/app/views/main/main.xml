@@ -35,19 +35,26 @@
                     color               = "white"
                     width               = "50%"
                     />
+                <Button 
+                    width               = "30%"
+                    text                = "Profile"
+                    color               = "white"
+                    backgroundColor     = "transparent"
+                    padding             = "0"
+                    />
             </StackLayout>
         </StackLayout>
         <StackLayout>
             <TabView>
                 <TabView.items>
-                <TabViewItem title="Your Profile">
+                <TabViewItem title="Subjects">
                     <TabViewItem.view>
-                        <StackLayout>
-
-                        </StackLayout>
+                        <GridLayout>
+                            
+                        </GridLayout>
                     </TabViewItem.view>
                 </TabViewItem>
-                <TabViewItem title="Leaderboards">
+                <TabViewItem title="Take an exam">
                     <TabViewItem.view>
                         <StackLayout>
 
@@ -58,7 +65,7 @@
             </TabView>
         </StackLayout>
         <DockLayout>
-            <Label text = "Bottom" />
+            <Label dock = "bottom" text = "Bottom" />
         </DockLayout>  
     </StackLayout>
 </Page>
