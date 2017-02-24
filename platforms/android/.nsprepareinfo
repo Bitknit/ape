@@ -1,7 +1,7 @@
 {
-	"time": "Fri Feb 24 2017 14:57:56 GMT+0545 (NPT)",
+	"time": "Fri Feb 24 2017 15:09:37 GMT+0545 (NPT)",
 	"bundle": false,
 	"release": false,
-	"changesRequireBuild": true,
+	"changesRequireBuild": false,
 	"changesRequireBuildTime": "Fri Feb 24 2017 14:57:56 GMT+0545 (NPT)"
 }
