@@ -51,15 +51,26 @@
                     <TabViewItem.view>
                         <GridLayout
                             columns = "*, *, *"
-                            rows    = "*, *"
+                            rows    = "40, auto, 60, auto, 20"
                             >
-                            <Button col = "0" row = "0" backgroundColor="transparent" text = "Physics"/>
-                            <Button col = "1" row = "0" backgroundColor="transparent" text = "CHemistry"/>
-                            <Button col = "2" row = "0" backgroundColor="transparent" text = "English"/>
 
-                            <Button col = "0" row = "1" backgroundColor="transparent" text = "Maths"/>
-                            <Button col = "1" row = "1" backgroundColor="transparent" text = "Aptitude"/>
-                            <Button col = "2" row = "1" backgroundColor="transparent" text = "Physics"/>
+                            <Image src="res://icon" width = "80" height = "80" col = "0" row = "1" backgroundColor="transparent"/>
+                            <Image src="res://icon" width = "80" height = "80"  col = "1" row = "1" backgroundColor="transparent"/>
+                            <Image src="res://icon" width = "80" height = "80"  col = "2" row = "1" backgroundColor="transparent"/>
+                            
+                            <Label textAlignment = "center" col = "0" row = "2" text = "Physics" />
+                            <Label textAlignment = "center" col = "1" row = "2" text = "Chemistry" />
+                            <Label textAlignment = "center" col = "2" row = "2" text = "Maths" />
+                            
+                            <Image src="res://icon" width = "80" height = "80"  col = "0" row = "3" backgroundColor="transparent"/>
+                            <Image src="res://icon" width = "80" height = "80"  col = "1" row = "3" backgroundColor="transparent"/>
+                            <Image src="res://icon" width = "80" height = "80"  col = "2" row = "3" backgroundColor="transparent"/>
+
+
+                            <Label textAlignment = "center" col = "0" row = "4" text = "Physics" />
+                            <Label textAlignment = "center" col = "1" row = "4" text = "Chemistry" />
+                            <Label textAlignment = "center" col = "2" row = "4" text = "Maths" />
+
                         </GridLayout>
                     </TabViewItem.view>
                 </TabViewItem>
