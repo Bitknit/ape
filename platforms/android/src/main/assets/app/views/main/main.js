@@ -5,7 +5,8 @@ exports.settings = function(){
     top.navigate({
         moduleName : "views/takeexam/takeexam",
         transition:{
-            name : "slideLeft"
+            name : "slideRight",
+            duration : 100
         },
         clearHistory: false
     });
