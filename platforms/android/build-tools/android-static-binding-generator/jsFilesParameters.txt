@@ -1,2 +1,1 @@
-/home/sandesh/proj/ape/platforms/android/src/main/assets/app/views/takeexam/takeexam.js
 /home/sandesh/proj/ape/platforms/android/src/main/assets/app/views/main/main.js

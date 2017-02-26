@@ -5,7 +5,7 @@
     <StackLayout>
         <StackLayout
         backgroundColor   = "#00a1ff"
-        height            = "40%"
+        height            = "45%"
         verticalAlignment = "top"
         >
             <StackLayout>
@@ -35,12 +35,14 @@
                     color               = "white"
                     width               = "50%"
                     />
-                <Button 
+                <Label 
                     width               = "30%"
-                    text                = "Profile"
+                    text                = "TAP TO VIEW PROFILE"
+                    fontSize            = "10"
                     color               = "white"
-                    backgroundColor     = "transparent"
+                    textAlignment       = "center"
                     padding             = "0"
+                    marginTop           = "10"
                     />
             </StackLayout>
         </StackLayout>
@@ -49,29 +51,31 @@
                 <TabView.items>
                 <TabViewItem title="Subjects">
                     <TabViewItem.view>
-                        <GridLayout
+                        <ScrollView>
+                            <GridLayout
                             columns = "*, *, *"
-                            rows    = "40, auto, 60, auto, 20"
+                            rows    = "40, auto, 60, auto, 60"
                             >
+                                <Image src="res://math" width = "60" height = "60" col = "0" row = "1" backgroundColor="transparent"/>
+                                <Image src="res://icon" width = "60" height = "60"  col = "1" row = "1" backgroundColor="transparent"/>
+                                <Image src="res://icon" width = "60" height = "60"  col = "2" row = "1" backgroundColor="transparent"/>
+                                
+                                <Label textAlignment = "center" col = "0" row = "2" text = "Physics" />
+                                <Label textAlignment = "center" col = "1" row = "2" text = "Chemistry" />
+                                <Label textAlignment = "center" col = "2" row = "2" text = "Maths" />
+                                
+                                <Image src="res://icon" width = "60" height = "60"  col = "0" row = "3" backgroundColor="transparent"/>
+                                <Image src="res://icon" width = "60" height = "60"  col = "1" row = "3" backgroundColor="transparent"/>
+                                <Image src="res://icon" width = "60" height = "60"  col = "2" row = "3" backgroundColor="transparent"/>
 
-                            <Image src="res://icon" width = "80" height = "80" col = "0" row = "1" backgroundColor="transparent"/>
-                            <Image src="res://icon" width = "80" height = "80"  col = "1" row = "1" backgroundColor="transparent"/>
-                            <Image src="res://icon" width = "80" height = "80"  col = "2" row = "1" backgroundColor="transparent"/>
-                            
-                            <Label textAlignment = "center" col = "0" row = "2" text = "Physics" />
-                            <Label textAlignment = "center" col = "1" row = "2" text = "Chemistry" />
-                            <Label textAlignment = "center" col = "2" row = "2" text = "Maths" />
-                            
-                            <Image src="res://icon" width = "80" height = "80"  col = "0" row = "3" backgroundColor="transparent"/>
-                            <Image src="res://icon" width = "80" height = "80"  col = "1" row = "3" backgroundColor="transparent"/>
-                            <Image src="res://icon" width = "80" height = "80"  col = "2" row = "3" backgroundColor="transparent"/>
 
+                                <Label textAlignment = "center" col = "0" row = "4" text = "Physics" />
+                                <Label textAlignment = "center" col = "1" row = "4" text = "Chemistry" />
+                                <Label textAlignment = "center" col = "2" row = "4" text = "Maths" />
 
-                            <Label textAlignment = "center" col = "0" row = "4" text = "Physics" />
-                            <Label textAlignment = "center" col = "1" row = "4" text = "Chemistry" />
-                            <Label textAlignment = "center" col = "2" row = "4" text = "Maths" />
-
-                        </GridLayout>
+                                <Label col = "0" row = "5" />
+                            </GridLayout>
+                        </ScrollView>                 
                     </TabViewItem.view>
                 </TabViewItem>
                 <TabViewItem title="Take an exam">

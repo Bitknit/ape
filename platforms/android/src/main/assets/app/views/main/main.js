@@ -11,3 +11,7 @@ exports.settings = function(){
         clearHistory: false
     });
 }
+
+exports.expandProfile = function(args){
+    
+}
