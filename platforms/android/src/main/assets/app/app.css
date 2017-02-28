@@ -1,4 +1,7 @@
 ﻿.btn {
     font-size: 18;
 }
+Page{
+    orientation: vertical;
+}
 @import 'nativescript-theme-core/css/core.light.css';

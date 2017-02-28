@@ -4,25 +4,29 @@
     </Page.ActionBar>
     <StackLayout>
         <StackLayout
+        id                = "profileExpander"
         backgroundColor   = "#00a1ff"
         height            = "45%"
         verticalAlignment = "top"
+        tap               = "expandProfile"
         >
             <StackLayout>
                 <Image
-                    src                 = "res://icon"
-                    horizontalAlignment = "left"
+                    id                  = "toggleSwitch"
+                    src                 = "~/images/settings.png"
+                    horizontalAlignment = "right"
                     height              = "30"
                     width               = "30"
-                    marginLeft          = "20"
-                    marginTop           = "10"
+                    marginRight         = "20"
+                    marginTop           = "20"
                     color               = "white"
                     tap                 = "settings" />
                 <Image 
+                    marginTop           = "10"
                     backgroundColor     = "white"
-                    src                 = "res://logo"
-                    height              = "100"
-                    width               = "100"
+                    src                 = "~/images/user.png"
+                    height              = "80"
+                    width               = "80"
                     borderColor         = "white"
                     borderWidth         = "4"
                     borderRadius        = "100%"
@@ -56,22 +60,20 @@
                             columns = "*, *, *"
                             rows    = "40, auto, 60, auto, 60"
                             >
-                                <Image src="res://math" width = "60" height = "60" col = "0" row = "1" backgroundColor="transparent"/>
-                                <Image src="res://icon" width = "60" height = "60"  col = "1" row = "1" backgroundColor="transparent"/>
-                                <Image src="res://icon" width = "60" height = "60"  col = "2" row = "1" backgroundColor="transparent"/>
+                                <Image src="~/images/physics.png" width = "60" height = "60" col = "0" row = "1" backgroundColor="transparent"/>
+                                <Image src="~/images/chemistry.png" width = "60" height = "60"  col = "1" row = "1" backgroundColor="transparent"/>
+                                <Image src="~/images/math.png" width = "60" height = "60"  col = "2" row = "1" backgroundColor="transparent"/>
                                 
                                 <Label textAlignment = "center" col = "0" row = "2" text = "Physics" />
                                 <Label textAlignment = "center" col = "1" row = "2" text = "Chemistry" />
                                 <Label textAlignment = "center" col = "2" row = "2" text = "Maths" />
                                 
-                                <Image src="res://icon" width = "60" height = "60"  col = "0" row = "3" backgroundColor="transparent"/>
-                                <Image src="res://icon" width = "60" height = "60"  col = "1" row = "3" backgroundColor="transparent"/>
-                                <Image src="res://icon" width = "60" height = "60"  col = "2" row = "3" backgroundColor="transparent"/>
+                                <Image src="~/images/english.png" width = "60" height = "60"  col = "0" row = "3" backgroundColor="transparent"/>
+                                <Image src="~/images/aptitude.png" width = "60" height = "60"  col = "1" row = "3" backgroundColor="transparent"/>
 
-
-                                <Label textAlignment = "center" col = "0" row = "4" text = "Physics" />
-                                <Label textAlignment = "center" col = "1" row = "4" text = "Chemistry" />
-                                <Label textAlignment = "center" col = "2" row = "4" text = "Maths" />
+                                <Label textAlignment = "center" col = "0" row = "4" text = "English" />
+                                <Label textAlignment = "center" col = "1" row = "4" text = "Aptitude" />
+                                <Label textAlignment = "center" col = "2" row = "4" text = "" />
 
                                 <Label col = "0" row = "5" />
                             </GridLayout>

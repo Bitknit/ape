@@ -5,9 +5,12 @@ exports.settings = function(){
     top.navigate({
         moduleName : "views/takeexam/takeexam",
         transition:{
-            name : "slideRight",
-            duration : 100
+            name : "slideRight"
         },
         clearHistory: false
     });
+}
+
+exports.expandProfile = function(args){
+    
 }
