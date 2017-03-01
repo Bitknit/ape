@@ -1,4 +1,4 @@
-<Page xmlns:sb="nativescript-statusbar" actionBarHidden="true" pageTransition = "slide">
+<Page xmlns:sb="nativescript-statusbar" actionBarHidden="true" loaded = "loaded">
     <Page.ActionBar>
         <sb:StatusBar android:barStyle="#00a1ff" />
     </Page.ActionBar>
@@ -58,9 +58,9 @@
                         <ScrollView>
                             <GridLayout
                             columns = "*, *, *"
-                            rows    = "40, auto, 60, auto, 60"
+                            rows    = "20, auto, 40, auto, 60"
                             >
-                                <Image src="~/images/physics.png" width = "60" height = "60" col = "0" row = "1" backgroundColor="transparent"/>
+                                <Image tap ='subTap' src="~/images/physics.png" width = "60" height = "60" col = "0" row = "1" backgroundColor="transparent"/>
                                 <Image src="~/images/chemistry.png" width = "60" height = "60"  col = "1" row = "1" backgroundColor="transparent"/>
                                 <Image src="~/images/math.png" width = "60" height = "60"  col = "2" row = "1" backgroundColor="transparent"/>
                                 

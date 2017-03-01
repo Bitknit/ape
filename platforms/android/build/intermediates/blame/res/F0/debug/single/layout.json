@@ -52,12 +52,12 @@
         "source": "/home/sandesh/proj/ape/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/home/sandesh/proj/ape/platforms/android/build/intermediates/res/merged/F0/debug/layout/design_text_input_password_icon.xml",
-        "source": "/home/sandesh/proj/ape/platforms/android/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_text_input_password_icon.xml"
-    },
-    {
         "merged": "/home/sandesh/proj/ape/platforms/android/build/intermediates/res/merged/F0/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/home/sandesh/proj/ape/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/sandesh/proj/ape/platforms/android/build/intermediates/res/merged/F0/debug/layout/design_text_input_password_icon.xml",
+        "source": "/home/sandesh/proj/ape/platforms/android/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_text_input_password_icon.xml"
     },
     {
         "merged": "/home/sandesh/proj/ape/platforms/android/build/intermediates/res/merged/F0/debug/layout/error_activity.xml",
